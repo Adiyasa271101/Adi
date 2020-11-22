@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_login.css">
+    <title>Login Page</title>
+    <script src="otentikasi.js"></script>
+</head>
+<body>
+   <h4>
+    Nama Pengguna = adiyasar<br>
+    Kata Sandi = Nice
+   </h4>
+        <form class="modal-content animate">    
+            <!-- form validasi -->
+            <div class="container">
+            <h2 style="text-align: center; margin: 20px; font-size: medium;">Silakan login</h2>
+              <label><b>NamaPenguna</b></label>
+              <input type="text" id="Nama pengguna"  placeholder="Enter Namapengguna"  required /><br>
+              <!-- --------------------------- -->
+              <label><b>Kata Sandi</b></label>
+              <input type="Kata sandi" id="Kata Sandi"  placeholder="Enter Kata Sandi"  required />
+              <!-- btn_login --> <br>
+                     
+             
+ <input type="button" value="Masuk" id="submit" onclick="validate()"/>   <!-- ------ -->
+              <!-- <input type="checkbox" checked="checked"> Remember me -->
+            </div>
+            
+          </form>
+
+
+
+       
+</body>
+</html>
